@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./foto abby.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Abby Moreno⭐
+            <p class="profile-summary">
+           🌺 hola,soy abby moreno, tengo 16 años y estudio en el grado 11 del colegio CASD josé prudencio padilla.
+            me gustan los animales ,experimentar,y crear cosas nuevas 
+            me considero una persona responsable,creativa y soñadora
+            mi meta es terminar el bachillerato con exito y seguir aprendiendo para construir un buen futuro🌺
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto✉️:abymore.0726@gmail.com">abymore.0726@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/☎️+573150668331" target="_blank" rel="noopener noreferrer">+57 3150668331</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia📚</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Bachillerato Académico | Institución Educativa CASD josé prudencio padilla</h4>
+                    <p>Bachillerato Académico| Año de inicio: 2020</p> Actualmente cursando Grado 11
+                    <P>Descripción: Formación orientada al desarrollo de competencias en ciencias,matemáticas,comunicación y pensamiento crítico,con proyección hacia la educación superior</P>
+                </li>
+                <li>
+                    <h4>Especialidad en Análisis Químico🔬| Institución Educativa CASD josé prudencio padilla</h4>
+                    <p>Especialidad en Análisis Químico🔬| Año de inicio: 2024</p> Actualmente en curso 
+                    <p>Descripción: Programa técnico enfocado en el aprendizaje de procesos de laboratorio,método de análisis químico y prácticas experimentales que fortalecen la aplicación de la química en contextos académicos e industriales</p>
+                </li>
+            </ul>
+
+            <h3>🧪Experiencia Académica🧪</h3>
+            <ul class="list">
+                <li>
+                    <h4>Practicas de laboratorio🧫| Especialidad en Análisis Químico⚛️</h4>
+                    <p>2024 - Presente <br>Descripción: Desarrollo de ensayos químicos básicos,preparación de soluciones,manejo de reactivos y registro de resultados de manera responsable y organizada</p>
+                </li>
+                <li>
+                    <h4>Proyecto Escolar | Reciclaje Creativo </h4>
+                    <p>Julio 2024 - septiembre 2024<br>Descripción: Creación de propuestas para la reutilización de materiales plásticos(como botellas PET)en objetos útiles y decorativos,promoviendo el cuidado del medio ambiente y la economÍa circular</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">💪Habilidades💪</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Responsabilidad y compromiso en el cumplimiento de tareas académicas y proyectos</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Creatividad e innovación</li>
+                    <li>Comunicación asertiva</li>
+                    <li>Habilidades técnicas básicas en prácticas de laboratorio químico</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>⚙️Habilidades Blandas⚙️</h3>
+                <ul class="list-inline">
+                    <li>Liderazgo</li>
+                    <li>Empatía</li>
+                    <li>Resolución de problemas </li>
+                    <li>Pensamiento crítico</li>
+                    <li>Trabajo en equipo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos📱</h2>
+        <div class="linktree-container">
+            <img src="./foto abby.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="URL_GITHUB" target="_blank" class="linktree-link"><strong>GitHub</strong></a>
+            <a href="URL_LINKEDIN" target="_blank" class="linktree-link"><strong>LinkedIn</strong></a>
+            <a href="URL_PORTAFOLIO" target="_blank" class="linktree-link"><strong>Portafolio</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Abby Moreno <br> Todos los derechos reservados.</p>
+        <p>les deseo muchos sueños cumplidos y logros en su camino💕</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
